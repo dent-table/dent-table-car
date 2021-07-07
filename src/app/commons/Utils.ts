@@ -180,6 +180,10 @@ const randomHexString = function (size: number): string {
 
 const specialCases: SpecialCasesDefinition = {
   // TODO(fork): add special cases (SEE GUIDELINES)
+  'CEREC': {
+    tables: [1],
+    bounds: [9000, 9099]
+  }
 };
 
 const specialCasesKeys = keys(specialCases);
